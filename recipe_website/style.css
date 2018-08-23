@@ -8,6 +8,7 @@ text-align: center;
 background-color: lightgreen;
 width: 50%;
 }
+
 article{
 margin-left: 40px;
 }
@@ -15,6 +16,7 @@ margin-left: 40px;
 img{
   width: 75%
 }
+
 footer{
   background-color: #4F6E4A;
   color: #fff;

@@ -1,22 +1,29 @@
+/*GENERAL*/
+html,body{  
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*MAIN HEADER*/
 h1{
-background-color:#4F6E4A;
-color: #fff;
-text-align: center;
+  background-color:#4F6E4A;
+  color: #fff;
+  text-align: center;
 }
-
 #recipe-navigation{
-background-color: lightgreen;
-width: 50%;
+  background-color: lightgreen;
+  width: 50%;
 }
 
+/*ARTICLE*/
 article{
-margin-left: 40px;
+  margin-left: 40px;
 }
-
 img{
-  width: 75%
+  width: 400px;
 }
 
+/*FOOTER*/
 footer{
   background-color: #4F6E4A;
   color: #fff;

@@ -1,3 +1,4 @@
+body,html{font-family: "Lato", sans-serif}
 a{
   display: block;
   margin: 0 auto;
@@ -6,12 +7,10 @@ a{
   padding: 5px;
   margin-bottom: 1.3rem;
   text-align: center;
-  color: #333;
-  font-family: "Lato", sans-serif;
+  color: #333;  
   font-weight: 300;
   border-radius: 1rem; 
  }
-
 a:hover{
   background-color: yellow;  
   color: black;
@@ -19,4 +18,31 @@ a:hover{
   font-size: 1.2rem;   
 }
 
-a.transition{transition: 0.4s}
+a.transition{
+  transition: 0.4s;  
+} 
+main{
+ 
+}
+p{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+p.ease-p{
+  color: red;
+}
+div{
+  left:0;
+  width: 1px;
+  padding: 10px;
+  margin-top: -10px;
+  position: relative; 
+  transition: 1s;
+}
+div.ease{  
+  background-color: red;  
+  color: red; 
+  right: 10;
+  transition-timing-function: ease;
+}
+main:hover div{left:200px;}

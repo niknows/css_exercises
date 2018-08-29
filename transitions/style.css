@@ -1,5 +1,7 @@
+/*GENERAL*/
 body,html{font-family: "Lato", sans-serif}
 
+/*BUTTONS*/
 a{
   display: block;
   margin: 0 auto;
@@ -24,6 +26,7 @@ a.transition{
   transition: 0.4s;  
 } 
 
+/*BOXES*/
 p{
   font-weight: bold;
   font-size: 1.3rem;

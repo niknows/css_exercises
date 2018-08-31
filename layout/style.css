@@ -1,0 +1,35 @@
+aside,
+body {
+  padding: 5px;
+}
+body {
+  font-family: sans-serif;
+  border: 3px dashed lightgray;
+  position: relative;
+}
+nav {
+  border: 2px solid red;
+  width: 100px;
+  position: absolute;
+  height: 92%;
+}
+nav ul,
+section p {
+  text-align: center;
+}
+ul {
+  padding: 0;
+  margin: 50px auto 50px auto;
+  list-style: none;
+  list-style-position: inside;
+}
+section {
+  border: 2px solid orange;
+  margin-left: 150px;
+}
+aside {
+  border: 2px solid purple;
+  position: fixed;
+  bottom: 8px;
+  left: 8px;
+}

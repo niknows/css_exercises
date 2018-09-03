@@ -1,0 +1,33 @@
+body{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: radial-gradient(white,purple);
+}
+#drop-area{
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px dashed orange;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+#drag{
+  opacity: 1;
+  text-align: center;
+  transition: 0.3s;
+  position: relative;
+  margin: 4px;  
+}
+#drag:hover{
+  color: coral;
+  font-weight: bolder;
+}
+#drag:active{
+  color: skyblue;
+  font-size: 2rem;
+  bottom: 5px;
+}

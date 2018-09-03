@@ -4,7 +4,11 @@ $ff: sans-serif;
 menu{
   display: flex;
   justify-content: center;  
-  a{
+  visibility: visible;
+  opacity: 1;
+  transition: 0.6s;
+  a{ 
+    transform: rotate(360deg);
     color: $primary-color;
     text-decoration: none;
     padding: 20px;
@@ -25,10 +29,10 @@ menu{
     justify-content: center;
     background-color: lightgray;
     box-shadow: 10px 10px 20px black;
-    width: 100px;
+    width: 100px;    
     height: 100px;  
     padding: 10px;
-    transition: 0.6s;
+    transition: 0.6s;    
   }
   .line{
     background-color: black;
@@ -40,8 +44,14 @@ menu{
 
 #menu:hover{
   background-color: coral;  
+  transform: rotate(360deg)
 }
 #menu:hover .line{
   background-color: white;
+ 
+}
+.invisible{
+  visibility: hidden;
+  opacity: 0;
 }
   

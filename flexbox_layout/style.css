@@ -1,0 +1,25 @@
+.container{
+  display: flex;  
+  height: 60vh;
+}
+.box{
+  width: 33.33%;
+  height: 40vh;
+}
+.box-1{
+  background-color:orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-2{background-color:coral;}
+.box-3{background-color:skyblue;}
+
+.box-min{
+  width: 50%;
+  height: 10vh;
+}
+.min-1{background-color: white;}
+.min-2{background-color: black;}
+

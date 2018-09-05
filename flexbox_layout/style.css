@@ -34,3 +34,15 @@ section {
   width: 66.7%;
   background-color: lightgray;
 }
+header,
+footer {
+  height: 30vh;
+}
+footer {
+  background-color: chocolate;
+  margin-top: 10px;
+}
+header {
+  background-color: chocolate;
+  margin-bottom: 10px;
+}

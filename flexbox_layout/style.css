@@ -1,7 +1,11 @@
+/*FLEX CONTAINER*/
 .container {
   display: flex;
   height: 60vh;
 }
+
+/*BOXES*/
+/*large*/
 .box {
   width: 33.33%;
   height: 60vh;
@@ -19,7 +23,7 @@
 .box-3 {
   background-color: skyblue;
 }
-
+/*min*/
 .box-min {
   width: 50%;
   height: 10vh;

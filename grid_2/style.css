@@ -8,6 +8,4 @@
 
 /*GRID ITEMS*/
 .item {background-color: lightgray;}
-.item:nth-of-type(even) {
-  background-color: gold;
-}
+.item:nth-of-type(even) {background-color: gold;}

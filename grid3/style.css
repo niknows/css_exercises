@@ -51,6 +51,8 @@ div.box.box-3 p {
 .gold {
   background-color: gold;
 }
+
+/*ANIMATIONS*/
 @keyframes rotation {
   from {
     transform: scale(0.8, 0.8);

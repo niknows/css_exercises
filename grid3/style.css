@@ -46,9 +46,7 @@ div.box.box-3 p {
   padding: 0.8rem;
   border-radius: 100px 100px 20px 100px;
 }
-.box-7 {
-  grid-column: 1/4;
-}
+.box-7 {grid-column: 1/4;}
 
 /*TOGGLE*/
 .coral {background-color: coral;}

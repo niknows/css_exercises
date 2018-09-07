@@ -45,6 +45,8 @@ div.box.box-3 p {
 .box-7 {
   grid-column: 1/4;
 }
+
+/*TOGGLE*/
 .coral {
   background-color: coral;
 }

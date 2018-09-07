@@ -52,10 +52,6 @@ div.box.box-3 p {
 
 /*ANIMATIONS*/
 @keyframes rotation {
-  from {
-    transform: scale(0.8, 0.8);
-  }
-  to {
-    transform: scale(1.1, 1.1);
-  }
+  from {transform: scale(0.8, 0.8);}
+  to {transform: scale(1.1, 1.1);}
 }

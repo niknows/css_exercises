@@ -16,9 +16,7 @@
   animation-direction: alternate;
 }
 .box-1 {grid-row: 1/5;}
-.box-2 {
-  grid-column: 2/4;
-}
+.box-2 {grid-column: 2/4;}
 .box-7 {
   grid-column: 2/4;
 }

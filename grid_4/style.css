@@ -6,9 +6,7 @@
   width: 50%;
   margin: 0 auto;
 }
-.box {
-  background-color: coral;
-}
+.box {background-color: coral;}
 .box:nth-of-type(even) {
   background-color: orange;
   border-radius: 20px 10px;

@@ -1,3 +1,4 @@
+/*GRID CONTAINER*/
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -6,6 +7,8 @@
   width: 50%;
   margin: 0 auto;
 }
+
+/*GRID ITEMS*/
 .box {background-color: coral;}
 .box:nth-of-type(even) {
   background-color: orange;

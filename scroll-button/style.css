@@ -53,9 +53,7 @@ main p {
   padding: 10px;
   border-radius: 50px;
   transform: rotate(-180deg);
-  box-shadow: 0px 1px 1px white;
-  
-  
+  box-shadow: 0px 1px 1px white;  
 }
 #back-to-top:hover {
   color: coral;

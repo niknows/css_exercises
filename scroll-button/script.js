@@ -3,7 +3,7 @@ topButton.addEventListener("click", function() {
   window.scroll({
     top: 2500,
     left: 400,
-    behavior: "smooth"
+    behavior: "smooth" //not working yet
   });
 });
 

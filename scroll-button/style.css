@@ -19,17 +19,17 @@ header:after {
 }
 
 /*HEADINGS*/
-h1 {
-  margin-bottom: -25px;
-  font-size: 4rem;
-}
-h2 {font-size: 3rem;}
 h1,
 h2 {
   font-family: serif;
   text-align: center;
   letter-spacing: 2px;
 }
+h1 {
+  margin-bottom: -25px;
+  font-size: 4rem;
+}
+h2 {font-size: 3rem;}
 
 /*MAIN CONTENT*/
 main p {

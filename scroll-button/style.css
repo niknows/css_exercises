@@ -40,6 +40,7 @@ main p {
   font-weight: 300;
 }
 
+/*SCROLL BUTTON*/
 #back-to-top {
   color: black;
   visibility: hidden;
@@ -69,6 +70,7 @@ main p {
   border-radius: 5px !important;
 }
 
+/*TOGGLE*/
 .visible{  
   visibility: visible !important;
   opacity: 1 !important;

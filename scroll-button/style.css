@@ -9,6 +9,7 @@ html {
   color: white;
 }
 
+/*HEADER*/
 header:after {
   content: "";
   width: 4%;

@@ -1,0 +1,73 @@
+body,
+html {
+  font-family: "Lato", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+}
+
+header:after {
+  content: "";
+  width: 4%;
+  margin: -18px auto 0 auto;
+  display: block;
+  border-bottom: 4px dotted gold;
+}
+h1 {
+  margin-bottom: -25px;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h1,
+h2 {
+  font-family: serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+main p {
+  line-height: 1.8;
+  letter-spacing: 1.3px;
+  font-weight: 300;
+}
+#back-to-top {
+  color: black;
+  visibility: hidden;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 40px;  
+  opacity: 0;
+  transition: 0.3s;
+  background-color: gold;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50px;
+  transform: rotate(-180deg);
+  box-shadow: 0px 1px 1px white;
+  
+  
+}
+#back-to-top:hover {
+  color: coral;
+  font-size: 1.4rem;
+}
+#back-to-top:active {
+  background-color: coral;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 5px !important;
+}
+
+.visible{  
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: rotate(0deg) !important;
+  bottom: 30px !important;
+  border-radius: 0 !important;
+  font-size: 1.2rem;
+}

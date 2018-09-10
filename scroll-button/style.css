@@ -33,11 +33,13 @@ h2 {
   letter-spacing: 2px;
 }
 
+/*MAIN CONTENT*/
 main p {
   line-height: 1.8;
   letter-spacing: 1.3px;
   font-weight: 300;
 }
+
 #back-to-top {
   color: black;
   visibility: hidden;

@@ -70,6 +70,7 @@ body {
   grid-area: item3;
 }
 
+/*ANIMATIONS*/
 @keyframes background {
   from {
     background-color: coral;

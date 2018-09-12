@@ -40,6 +40,8 @@ body {
   background-color: #ecf0f1;
   border: 5px dashed #34495e;
 }
+
+/*GRID ITEMS*/
 .item {
   background-color: coral;
   width: 100px;

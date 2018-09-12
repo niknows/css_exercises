@@ -67,7 +67,5 @@ body {
 /*ANIMATIONS*/
 @keyframes background {
   from {background-color: coral;}
-  to {
-    background-color: #34495e;
-  }
+  to {background-color: #34495e;}
 }

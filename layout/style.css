@@ -12,9 +12,7 @@ nav {
   height: 92%;
 }
 nav ul,
-section p {
-  text-align: center;
-}
+section p {text-align: center;}
 ul {
   padding: 0;
   margin: 50px auto 50px auto;

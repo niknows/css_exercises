@@ -1,1 +1,1 @@
-<h1>Css Exercises</h1>
+<h1>CSS Exercises</h1>

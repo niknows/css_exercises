@@ -1,3 +1,4 @@
+
 var close = document.querySelector("#close");
 var menu = document.querySelector("menu");
 var hamburger = document.querySelector("#menu");

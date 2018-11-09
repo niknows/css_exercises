@@ -47,6 +47,7 @@ body {
 
 /*GRID ITEMS*/
 .item {
+  
   background-color: coral;
   width: 100px;
   height: 100px;
@@ -55,6 +56,7 @@ body {
   text-align: center;
   transition: 0.3s;
   position: relative;
+  
 }
 .item:hover {
   background-color: #34495e;

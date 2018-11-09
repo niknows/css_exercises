@@ -1,11 +1,13 @@
 /*GRID CONTAINER*/
 .container {
+  
   width: 50%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 200px);
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 20px;
+  
 }
 
 /*GRID-ITEMS*/

@@ -20,7 +20,9 @@
 
 /*TOGGLE*/
 .orange {
+  
   background-color: orange;
   border-radius: 50%;
   transform: rotate(360deg);
+  
 }

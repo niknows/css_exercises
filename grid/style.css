@@ -41,8 +41,10 @@ body {
   
 }
 .container:hover {
+  
   background-color: #ecf0f1;
   border: 5px dashed #34495e;
+  
 }
 
 /*GRID ITEMS*/

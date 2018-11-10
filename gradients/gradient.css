@@ -14,9 +14,11 @@ padding: 30px;
 }
 
 #background{
+
   background-image: linear-gradient(20deg,red,yellow);
 color: white;
 padding: 30px;
+
 }
 
 #background{

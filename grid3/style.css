@@ -21,6 +21,7 @@ body {
 
 /*GRID ITEMS*/
 .box {
+  
   display: flex;
   background-color: gold;
   align-items: center;
@@ -29,6 +30,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  
 }
 .box:nth-of-type(even) {
   background-color: coral;
